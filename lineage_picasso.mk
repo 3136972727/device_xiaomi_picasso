@@ -21,7 +21,7 @@ PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi K30 5G
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_DISPLAY_ID="crDroid"
+    BUILD_DISPLAY_ID="lineage"
 
 # Blur
 TARGET_ENABLE_BLUR := true
@@ -39,7 +39,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Maintainter
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.maintainer.name=masemoel
+    ro.maintainer.name=nmou
 
 # Quick tap
 TARGET_SUPPORTS_QUICK_TAP := true
